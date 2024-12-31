@@ -1,4 +1,4 @@
-# Diabetes Predicition
+-# Diabetes Predicition
 
 ## Descrierea setului de date:
 
@@ -44,14 +44,14 @@ Functia `apply_pca()` folosita pentru a aplica PCA asupra matricii.Folosita pent
 - GNB:
   - fara PCA: definita prin `gnb_without_pca()`.
   - cu PCA: definita prin `gnb_with_pca()`.
-Functiile asociate pentru SVM si GNB au o implementare asemantoare.Impartirea in date de antrenare si testare,apelarea functiei de `train_and_evaluate_svm/gnb`,obtinerea predictiei si a acuratetii,afisarea unui `classification_report()` si afisarea unei matrici de confuzie print metoda `plot_confusion_matrix()`.Functiile cu PCA functioneaza similar,doar ca se apeleaza `apply_pca()`.
+- Functiile asociate pentru SVM si GNB au o implementare asemantoare.Impartirea in date de antrenare si testare,apelarea functiei de `train_and_evaluate_svm/gnb`,obtinerea predictiei si a acuratetii,afisarea unui `classification_report()` si afisarea unei matrici de confuzie print metoda `plot_confusion_matrix()`.Functiile cu PCA functioneaza similar,doar ca se apeleaza `apply_pca()`.
 - KNN:
   - fara PCA: definita prin `knn_without_pca()`.
   - cu PCA: definita prin `knn_with_pca()`.
 - RF:
   - fara PCA: definita prin `rf_without_pca()`.
   - cu PCA: definita prin `rf_with_pca()`.
-Functiile KNN si RF au o abordare diferita.Am iterat printr-un for pentru gasirea numarului ideal de estimatori/vecini.In rest implemntarea fiind idem cu celelalte doua.
+- Functiile KNN si RF au o abordare diferita.Am iterat printr-un for pentru gasirea numarului ideal de estimatori/vecini.In rest implemntarea fiind idem cu celelalte doua.
 
 ## Performante
 
