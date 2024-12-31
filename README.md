@@ -1,4 +1,4 @@
--# Diabetes Predicition
+# Diabetes Predicition
 
 ## Descrierea setului de date:
 
